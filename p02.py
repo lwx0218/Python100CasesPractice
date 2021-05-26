@@ -9,3 +9,20 @@
 
 **程序分析：**分区间计算即可。
 '''
+
+profit = eval(input("please enter the profit: \n"))
+bouns = 0
+threshold = [100000, 200000, 400000, 600000, 1000000]
+rate = [0.1, 0.075, 0.05, 0.03, 0.015, 0.1]
+
+for i in range(len(threshold)):
+    if profit <= threshold[i]:
+        bouns = profit * rate[i]
+        profit = 0
+        break
+    else:
+        bouns += threshold[i]*rate[i]
+        profit-=threshold[i]
+bouns += profit*rate[-1]
+
+print(bouns)
