@@ -8,7 +8,7 @@
 import numpy as np
 
 def matSum():
-    n = np.mat(np.arange(1,10).reshape(3,3))
+    n = np.mat(np.arange(1, 10).reshape(3, 3))
     res = 0
     for i in range(len(n)):
         res += n[i,i]
