@@ -7,9 +7,9 @@
 
 from collections import *
 
-lt = [i for i in range(1,10)]
+lt = [i for i in range(1, 10)]
 
-deq = deque(lt,maxlen=len(lt))
+deq = deque(lt, maxlen=len(lt))
 print(deq)
 deq.rotate(int(3))
 print(list(deq))
