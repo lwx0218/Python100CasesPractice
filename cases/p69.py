@@ -12,20 +12,21 @@ def countOff(n):
     indicator = 1
     iloc = 0
 
-    while len(num) > 1:
+    while len(num) >= 1:
+
+        if iloc >= len(num):
+            iloc = 0
 
         if indicator == 3:
+            if len(num) == 1: break
             num.pop(iloc)
-            indicator = 1
+            indicator = 0
             iloc -= 1
 
-        print(num, len(num))
-        print('pop loc:', iloc)
-        print('indc:',indicator)
         iloc += 1
         indicator += 1
 
     return num[0]
 
 
-print(countOff(10))
+print(countOff(100))
