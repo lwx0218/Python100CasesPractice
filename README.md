@@ -4,7 +4,7 @@
     
    Original git url: 
     
-   (https://github.com/RichardFu123/Python100Cases)
+   https://github.com/RichardFu123/Python100Cases
 
 ## Cases I modified
 - p69 
