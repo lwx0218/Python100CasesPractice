@@ -1,9 +1,10 @@
 # PythonPractice
-    100 practical cases
+   
+   100 practical cases
     
-    Original git url: 
+   Original git url: 
     
-    (https://github.com/RichardFu123/Python100Cases)
+   (https://github.com/RichardFu123/Python100Cases)
 
 ## Cases I modified
 - p69 
