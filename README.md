@@ -9,7 +9,7 @@
 ## Cases I modified
 - p69 
    
-   Rewrite the entire problem
+    Rewrite the entire problem
 
 - p74
 
@@ -22,6 +22,14 @@
 - p78
 
     Used the inner function of python dict()
+    
+- p85
+
+    Rewrite the entire problem by using the string's feature
+
+- p88
+
+    Use the random list to generate the stars
 
 ## Useful functions and notes
 
