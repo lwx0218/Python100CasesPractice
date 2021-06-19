@@ -36,6 +36,7 @@ print(col2)
 col2even = [row[1] for row in matrix if row[1] % 2 == 0]  # filter odd item
 print(col2even)
 
-mat = np.mat(np.arange(1,10).reshape(3,3))
+mat = np.mat(np.arange(1, 10).reshape(3, 3))
 print(mat)
 print((mat[0]))
+print(mat[:, 0])
